@@ -1,0 +1,41 @@
+.layout {
+  background-color: black;
+}
+
+.layout section {
+  gap: 2rem;
+  max-width: 100%;
+}
+
+.layout h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .layout section {
+    padding: 1.5rem;
+    gap: 3rem;
+  }
+
+  .layout h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .layout section {
+    padding: 3rem;
+    gap: 3rem;
+  }
+
+  .layout h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+}

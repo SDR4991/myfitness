@@ -1,0 +1,25 @@
+{
+  "exercises": [
+    {
+      "exerciseName": "Exercise 1",
+      "repeats": "4 set of 10 times",
+      "img": "https://plus.unsplash.com/premium_photo-1661265933107-85a5dbd815af?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "burnedCalories": "50 calories",
+      "id": 73930385
+    },
+    {
+      "exerciseName": "Exercise 2",
+      "repeats": "4 set of 10 times",
+      "img": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "burnedCalories": "50 calories",
+      "id": 17806751
+    },
+    {
+      "exerciseName": "Exercise 3",
+      "repeats": "4 set of 10 times",
+      "img": "https://images.unsplash.com/photo-1554344728-77cf90d9ed26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "burnedCalories": "50 calories",
+      "id": 98443197
+    }
+  ]
+}

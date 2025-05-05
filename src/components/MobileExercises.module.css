@@ -1,0 +1,10 @@
+.mobileExercises {
+  display: none;
+  flex-direction: column;
+}
+
+@media (max-width: 748px) {
+  .mobileExercises {
+    display: flex;
+  }
+}

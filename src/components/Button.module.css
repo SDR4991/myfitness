@@ -1,0 +1,52 @@
+.btn {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: var(--orange-main-1);
+  color: var(--white-main);
+}
+
+.btn:hover {
+  background-color: var(--orange-main-2);
+  color: var(--black-main);
+  transition: all 1s ease-out;
+}
+
+.btn:active {
+  scale: 95%;
+}
+
+.pages {
+  width: 50%;
+}
+
+.pages {
+  font-weight: 700;
+  background-color: var(--orange-main-1);
+  color: var(--white-main);
+}
+
+.notActive {
+  color: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: gray;
+  color: var(--white-main);
+}
+.notActive:disabled:hover:active {
+  font-weight: 700;
+  background-color: gray;
+  color: var(--white-main);
+}

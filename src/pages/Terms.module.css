@@ -1,0 +1,49 @@
+.terms {
+  background-color: black;
+}
+
+.terms section {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 70%;
+}
+
+.terms h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.terms p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .terms section {
+    max-width: 90%;
+  }
+
+  .terms h2 {
+    font-size: 2.2rem;
+  }
+
+  .terms p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms section {
+    max-width: 100%;
+  }
+
+  .terms h2 {
+    font-size: 1.8rem;
+  }
+
+  .terms p {
+    font-size: 1.1rem;
+  }
+}
