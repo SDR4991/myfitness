@@ -39,13 +39,13 @@
 
 @media (max-width: 1024px) {
   .login form {
-    padding: 4rem;
+    padding: 6rem;
   }
 }
 
 @media (max-width: 768px) {
   .login form {
-    padding: 6rem;
+    padding: 4rem 8rem;
     background-color: inherit;
   }
 }

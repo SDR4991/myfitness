@@ -6,7 +6,9 @@ function NavItem({ page, handleOpen }) {
 
   return (
     <li onClick={handleOpen}>
-      <NavLink to={pageName === "Main" ? "/" : `/${pageName.toLowerCase()}`}>
+      <NavLink
+        to={pageName === "Main" ? "/myfitness" : `/${pageName.toLowerCase()}`}
+      >
         {pageName}
       </NavLink>
     </li>

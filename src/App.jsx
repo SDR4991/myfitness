@@ -21,28 +21,28 @@ const options = [
     name: "Yoga",
     route: "yoga",
     description: "90 minutes training for your mental strength",
-    img: "myfitness/public/yoga.jpg",
+    img: "/yoga.jpg",
   },
   {
     id: "12",
     name: "Cardio",
     route: "cardio",
     description: "Improve cardio and train your stamina",
-    img: "myfitness/public/cardio-img.jpg",
+    img: "/cardio-img.jpg",
   },
   {
     id: "13",
     name: "Group Exercises",
     route: "group",
     description: "Choose what you like most and meet new people",
-    img: "myfitness/public/group-img.jpg",
+    img: "/group-img.jpg",
   },
   {
     id: "14",
     name: "Gym Workout",
     route: "gym",
     description: "Gain muscle,strength & build your body",
-    img: "myfitness/public/gym-img.jpg",
+    img: "/gym-img.jpg",
   },
 ];
 
