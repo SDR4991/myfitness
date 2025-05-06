@@ -1,7 +1,6 @@
 import { useLocation, useNavigate } from "react-router";
 import { PropTypes } from "prop-types";
 import useAuth from "../hook/useAuth";
-import NavBar from "../components/NavBar";
 import Button from "../components/Button";
 
 import styles from "./Login.module.css";
@@ -24,8 +23,6 @@ function Login() {
 
   return (
     <main className={`${styles.login} container`}>
-      <NavBar />
-
       <form onSubmit={handleSubmit}>
         <h2>Please enter required information to proceed next!</h2>
         <label>
@@ -59,7 +56,7 @@ function Login() {
         <label>
           E-mail: <input type="email" name="userEmail" />
         </label>
-        <div className={`btnContainer`}>
+        <div className={`btnContainerLogin`}>
           <Button type="submit">Sign Up</Button>
           <Button onClick={toMainPage}>Back to Main Page</Button>
         </div>
