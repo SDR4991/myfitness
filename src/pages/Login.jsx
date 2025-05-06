@@ -58,7 +58,7 @@ function Login() {
         </label>
         <div className={`btnContainerLogin`}>
           <Button type="submit">Sign Up</Button>
-          <Button onClick={toMainPage}>Back to Main Page</Button>
+          <Button onClick={toMainPage}>Main Page</Button>
         </div>
       </form>
     </main>

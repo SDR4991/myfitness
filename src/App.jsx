@@ -119,7 +119,7 @@ function App() {
     <BrowserRouter>
       <AuthProvider>
         <Routes>
-          <Route path="myfitness" element={<Mainpage />} />
+          <Route path="myfitness" element={<Mainpage />}></Route>
           <Route path="login" element={<Login />} />
           <Route
             path="app"
