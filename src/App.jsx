@@ -21,28 +21,28 @@ const options = [
     name: "Yoga",
     route: "yoga",
     description: "90 minutes training for your mental strength",
-    img: "/yoga.jpg",
+    img: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "12",
     name: "Cardio",
     route: "cardio",
     description: "Improve cardio and train your stamina",
-    img: "/cardio-img.jpg",
+    img: "https://images.unsplash.com/photo-1517931524326-bdd55a541177?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "13",
     name: "Group Exercises",
     route: "group",
     description: "Choose what you like most and meet new people",
-    img: "/group-img.jpg",
+    img: "https://images.unsplash.com/photo-1602827114685-efbb2717da9f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: "14",
     name: "Gym Workout",
     route: "gym",
     description: "Gain muscle,strength & build your body",
-    img: "/gym-img.jpg",
+    img: "https://images.unsplash.com/photo-1653773869760-5b0f846231fb?q=80&w=2011&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 

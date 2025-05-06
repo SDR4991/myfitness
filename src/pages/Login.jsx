@@ -59,9 +59,10 @@ function Login() {
         <label>
           E-mail: <input type="email" name="userEmail" />
         </label>
-
-        <Button type="submit">Sign Up</Button>
-        <Button onClick={toMainPage}>Back to Main Page</Button>
+        <div className={`btnContainer`}>
+          <Button type="submit">Sign Up</Button>
+          <Button onClick={toMainPage}>Back to Main Page</Button>
+        </div>
       </form>
     </main>
   );
